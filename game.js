@@ -151,7 +151,7 @@ function pauseGame() {
             trainBtn.textContent = 'Train 🚂';
             trainBtn.style.marginTop = '12px';
             trainBtn.onclick = function() {
-                window.location.href = '../train games/train.html';
+                window.location.href = '/train-games/train.html';
             };
             document.querySelector('.pauseBox').appendChild(trainBtn);
         }
